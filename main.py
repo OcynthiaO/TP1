@@ -1,7 +1,4 @@
-
-chaine = str(input('Entrer une chaine de mots:'))
+#Le fonction contre le nombre de mot, input str, output un chiffre
 def count_word(str):
-    nombre = len(chaine.split(" "))
+    nombre = len(str.split(" "))
     return nombre
-
-print("nombre de mot : " + '' + str(count_word(chaine)))
